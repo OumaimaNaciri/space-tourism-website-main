@@ -1,0 +1,107 @@
+// GOOGLE FONT
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&display=swap");
+// GLOBAL
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+// TYPOGRAPHY unit rem
+
+// relative size
+h1 {
+  font-family: $font-family1;
+  color: $neutral-color;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: $font-family2;
+  color: $light-color;
+  font-weight: 400;
+  font-size: 0.9375rem; //15px
+  line-height: 25px; //25px
+}
+
+.section-title {
+  font-family: $font-family3;
+  color: $neutral-color;
+  font-weight: 400;
+  font-size: $font-sm;
+  text-transform: uppercase;
+  letter-spacing: 2.7px;
+
+  span {
+    font-weight: 700;
+    opacity: 0.25;
+  }
+}
+
+// media query is up breakpoint
+@media screen and (min-width: 576px) {
+  p {
+    font-size: $font-sm;
+    line-height: 28px; //28px
+  }
+  .section-title {
+    font-size: $font-med;
+  }
+}
+@media screen and (min-width: 1200px) {
+  p {
+    line-height: 32px;
+  }
+  .section-title {
+    font-size: $font-lmed;
+  }
+}
+
+// expectation 900-1024
+// @media screen and (min-width: 900px) and (max-width: 1000px){
+// }
+
+// fixed size
+.nav-text {
+  font-family: $font-family3;
+  color: $neutral-color;
+  font-weight: 400;
+  font-size: $font-xsm;
+  text-transform: uppercase;
+  letter-spacing: 2.3625px;
+}
+
+.small-subheading {
+  font-family: $font-family3;
+  font-weight: normal;
+  font-size: $font-xsm;
+  line-height: 17px;
+  letter-spacing: 2.3625px;
+  text-transform: uppercase;
+  color: $light-color;
+  padding-bottom: 12px;
+}
+
+.beg-subheading {
+  font-family: $font-family1;
+  font-weight: normal;
+  font-size: $font-lmed;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: $neutral-color;
+}

@@ -1,0 +1,37 @@
+// nav & destination effect
+.nav-effect {
+  padding-bottom: 35px;
+  border-bottom: 3px solid rgba($color: #fff, $alpha: 0.04);
+  &:hover {
+    border-bottom: 3px solid rgba($color: #fff, $alpha: 0.5);
+  }
+  &__active {
+    border-bottom: 3px solid rgba($color: #fff, $alpha: 1);
+  }
+  &__destination {
+    padding-bottom: 12px;
+  }
+}
+
+// crew effect
+.crew-effect {
+  opacity: 0.17;
+  &:hover {
+    opacity: 0.5;
+  }
+  &__active {
+    opacity: 1;
+  }
+}
+
+// thecnology effect
+.technology-effect {
+  border: 1px solid rgba($color: #fff, $alpha: 0.5);
+  &:hover {
+    border-color: rgba($color: #fff, $alpha: 1);
+  }
+  &__active {
+    background-color: $neutral-color;
+    color: $dark-color !important;
+  }
+}
