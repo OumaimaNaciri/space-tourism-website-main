@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [click here](https://www.frontendmentor.io/solutions/responsive-multipage-website-with-html-scss-javascript-asae1KX8G)
+- Live Site URL: [click here](https://space-tourism-website-main-peach.vercel.app/)
 
 
 ### Built with
